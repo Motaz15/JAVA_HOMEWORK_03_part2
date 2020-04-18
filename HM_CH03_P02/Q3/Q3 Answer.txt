@@ -1,0 +1,10 @@
+first we started with data source which it
+ the "listEmployees" the we converted to stream
+Employee then we started some intermediate 
+operations like filter and map ~ the filter operation 
+returnn for us the stream of "Employee" with employees 
+that have salary more than or equal 800 and less than
+ 1200, then we mapped that stream to return 
+ a new Stream of type Employee have 2% extra(raise 2% on salary) on their salaries, after that we made a mutable 
+reduction operation (Collect) eturns a new collection have deprtments name and number of employees in each, Lastly
+ we used the forEeach (Terminal Operation) to print the data.
